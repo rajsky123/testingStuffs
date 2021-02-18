@@ -16,7 +16,7 @@ import io.restassured.specification.RequestSpecification;
 public class AppTest 
     
 {
-    @Test(priority=2)
+    @Test(priority=3)
     public void testAppA()
     {
     	RestAssured.baseURI="http://demoqa.com/utilities/weather/city";
